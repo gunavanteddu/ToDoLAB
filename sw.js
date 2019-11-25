@@ -3,8 +3,8 @@ importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox
 workbox.precaching.precacheAndRoute([
     '/index.html',
     '/js/index.js',
-    '/img/add.svg',
-    '/sw.js'
+    '/img/add.png'
+    
 ]);
 
 workbox.routing.registerRoute(
